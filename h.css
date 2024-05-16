@@ -1,0 +1,33 @@
+.card{
+width:300px;
+border: 1px solid black;
+border-radius: 12px;
+text-align: center;
+background-color: #bdc3c7;
+box-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black; 
+transition: all;
+transition-duration: .5s;
+}
+
+.card:hover{
+    opacity: 0.8;
+}
+
+#span1{
+    color: #FF6B6B;
+}
+
+#span2{
+    color: #3d72b4;
+}
+
+.card{
+    display: inline-block;
+    margin: 20px;
+}
+
+body{
+    background-color: #cbad6d;
+}
+
+
